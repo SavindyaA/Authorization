@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'self-hosted'
+  name: 'self-hosted'
 
 variables:
   solution: '**/*.sln'
